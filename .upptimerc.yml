@@ -7,9 +7,13 @@ sites:
     url: https://mailcow.email
   - name: ✅ Stable Demo
     url: https://demo.mailcow.email
+    __dangerous__disable_verify_peer: true
   - name: 🛠️ Nightly Demo
     url: https://nightly-demo.mailcow.email
-  # - name: Wikipedia
+    __dangerous__disable_verify_peer: true
+  - name: 🗑️ Fuzzy Storage
+    url: http://fuzzy.mailcow.email/bad-subject-regex.txt
+    maxResponseTime: 500
   #   url: https://en.wikipedia.org
   # - name: Hacker News
   #   url: https://news.ycombinator.com
@@ -28,8 +32,8 @@ status-website:
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/mailcow/service-monitoring/master/assets/cow_mailcow.svg
   name: mailcow Service Monitor
-  introTitle: "mailcow: dockerized - 🐮 + 🐳 = 💕 | The mailserver suite with the 'moo'"
-  introMessage: This Page contains status information about services regarding mailcow. Powered by [upptime](https://github.com/upptime/upptime)
+  introTitle: "mailcow: dockerized - 🐮 + 🐳 = 💕"
+  introMessage: This Page contains status information about services regarding mailcow The mailserver suite with the 'moo'"
   navbar:
     - title: Status
       href: /
