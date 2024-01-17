@@ -1,7 +1,7 @@
 url: https://asn-check.mailcow.email
-status: up
-code: 200
-responseTime: 160
-lastUpdated: 2024-01-17T14:19:31.955Z
+status: degraded
+code: 503
+responseTime: 869
+lastUpdated: 2024-01-17T23:11:42.933Z
 startTime: 2024-01-17T14:19:30.911Z
 generator: Upptime <https://github.com/upptime/upptime>
