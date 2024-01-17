@@ -14,16 +14,9 @@ sites:
   - name: 🗑️ Fuzzy Storage
     url: http://fuzzy.mailcow.email/bad-subject-regex.txt
     maxResponseTime: 500
-  #   url: https://en.wikipedia.org
-  # - name: Hacker News
-  #   url: https://news.ycombinator.com
-  # - name: Test Broken Site
-  #   url: https://thissitedoesnotexist.koj.co
-  # - name: IPv6 test
-  #   url: forwardemail.net
-  #   port: 80
-  #   check: "tcp-ping"
-  #   ipv6: true
+  - name: 📡 Spamhaus DQS ASN Checker
+    url: https://asn-check.mailcow.email
+    maxResponseTime: 500
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
