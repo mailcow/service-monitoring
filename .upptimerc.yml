@@ -17,6 +17,9 @@ sites:
   - name: 📡 Spamhaus DQS ASN Checker
     url: https://asn-check.mailcow.email
     maxResponseTime: 500
+    expectedStatusCodes:
+      - 200
+      - 503
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
