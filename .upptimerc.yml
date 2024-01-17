@@ -30,7 +30,11 @@ status-website:
   navbar:
     - title: Status
       href: /
-    - title: GitHub
+    - title: Blog
+      href: https://mailcow.email
+    - title: GitHub (Main Project)
+      href: https://github.com/mailcow/mailcow-dockerized
+    - title: GitHub (Monitoring)
       href: https://github.com/$OWNER/$REPO
 
 # Upptime also supports notifications, assigning issues, and more
