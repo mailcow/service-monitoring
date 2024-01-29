@@ -1,7 +1,7 @@
 url: https://nightly-demo.mailcow.email
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-01-29T11:10:10.885Z
+status: up
+code: 200
+responseTime: 863
+lastUpdated: 2024-01-29T11:21:54.493Z
 startTime: 2024-01-16T15:32:03.305Z
 generator: Upptime <https://github.com/upptime/upptime>
